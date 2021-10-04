@@ -1,0 +1,9 @@
+# This is a dockerfile for Contacts
+# That Image contain Ubuntu:letest, JDK, Maven, Chrome   
+
+FROM qayesodot/qayesodot:jdk_mvn"
+
+RUN apt-get update && apt-get upgrade -y
+
+CMD git config  --global user.email "y.d.morad@gmail.com" 
+CMD 

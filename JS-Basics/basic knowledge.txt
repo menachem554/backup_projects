@@ -1,0 +1,29 @@
+alert == A message that pops up when the page loads
+
+prompt == Let the user insert an input
+
+typeof == print the type of a var  
+
+<script> </script> == Here you can insert the JS file
+
+Mark\'s  == the back slash Signifies that the '  is part of the string 
+
+// Teranry operator
+var drink = age >= 18 ? 'beer' : 'juice'; ==  this is the if + else 
+
+// Switch statement
+var job = 'teacher';
+switch (job){
+       case 'teacher':
+               console.log('is a teacher ')
+               break;
+       case 'Driver':
+       case 'Taxi driver':
+               console.log('He drives')
+               break;
+       default:
+              console.log('You will find a job')
+                 }
+
+// falsy values
+undefined, null, 0, '', NaN
